@@ -32,7 +32,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  * @author Kris Wallsmith <kris@symfony.com>
  * @author Jonathan H. Wage <jonwage@gmail.com>
  */
-class DoctrineRiaRiakBundle extends Bundle
+class DoctrineRiakBundle extends Bundle
 {
     private $autoloader;
 
