@@ -27,7 +27,7 @@
     },
     "target-dir": "CosmoW/RiakAdminBundle",
     "autoload": {
-        "psr-4": {
+        "psr-0": {
             "CosmoW\\Bundle\\RiakBundle\\": ""
         }
     },
