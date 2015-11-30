@@ -25,12 +25,12 @@
     "suggest": {
         "doctrine/data-fixtures": "Load data fixtures"
     },
-    "target-dir": "CosmoW/DoctrineRiakBundle",
     "autoload": {
         "psr-0": {
-            "CosmoW\\Bundle\\RiakBundle\\": ""
+            "CosmoW\\DoctrineRiakBundle\\": ""
         }
     },
+    "target-dir": "CosmoW/DoctrineRiakBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "3.0-dev"
