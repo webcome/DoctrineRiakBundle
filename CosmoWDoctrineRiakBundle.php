@@ -12,7 +12,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CosmoW\Bundle\RiakBundle;
+namespace CosmoW\DoctrineRiakBundle;
 
 use Doctrine\Common\Util\ClassUtils;
 use Doctrine\Bundle\MongoDBBundle\DependencyInjection\Compiler\CreateHydratorDirectoryPass;
@@ -32,7 +32,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  * @author Kris Wallsmith <kris@symfony.com>
  * @author Jonathan H. Wage <jonwage@gmail.com>
  */
-class DoctrineRiakBundle extends Bundle
+class CosmoWDoctrineRiakBundle extends Bundle
 {
     private $autoloader;
 
