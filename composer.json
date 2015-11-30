@@ -25,6 +25,7 @@
     "suggest": {
         "doctrine/data-fixtures": "Load data fixtures"
     },
+    "target-dir": "CosmoW/RiakAdminBundle",
     "autoload": {
         "psr-4": {
             "CosmoW\\Bundle\\RiakBundle\\": ""
