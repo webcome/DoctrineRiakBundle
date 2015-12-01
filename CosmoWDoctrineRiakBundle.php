@@ -15,9 +15,9 @@
 namespace CosmoW\DoctrineRiakBundle;
 
 use Doctrine\Common\Util\ClassUtils;
-use Doctrine\Bundle\MongoDBBundle\DependencyInjection\Compiler\CreateHydratorDirectoryPass;
-use Doctrine\Bundle\MongoDBBundle\DependencyInjection\Compiler\CreateProxyDirectoryPass;
-use Doctrine\Bundle\MongoDBBundle\DependencyInjection\DoctrineMongoDBExtension;
+use CosmoW\DoctrineRiakBundle\DependencyInjection\Compiler\CreateHydratorDirectoryPass;
+use CosmoW\DoctrineRiakBundle\DependencyInjection\Compiler\CreateProxyDirectoryPass;
+use CosmoW\DoctrineRiakBundle\DependencyInjection\DoctrineRiakExtension;
 use Symfony\Bridge\Doctrine\DependencyInjection\CompilerPass\DoctrineValidationPass;
 use Symfony\Bridge\Doctrine\DependencyInjection\CompilerPass\RegisterEventListenersAndSubscribersPass;
 use Symfony\Bridge\Doctrine\DependencyInjection\Security\UserProvider\EntityFactory;
@@ -50,7 +50,7 @@ class CosmoWDoctrineRiakBundle extends Bundle
 
     public function getContainerExtension()
     {
-        return new DoctrineMongoDBExtension();
+        return new DoctrineRiakExtension();
     }
 
     public function boot()

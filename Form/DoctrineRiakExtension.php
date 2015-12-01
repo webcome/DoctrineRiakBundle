@@ -12,7 +12,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CosmoW\Bundle\RiakBundle\Form;
+namespace CosmoW\DoctrineRiakBundle\Form;
 
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Symfony\Component\Form\AbstractExtension;

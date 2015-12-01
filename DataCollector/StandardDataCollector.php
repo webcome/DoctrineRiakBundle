@@ -12,7 +12,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CosmoW\Bundle\RiakBundle\DataCollector;
+namespace CosmoW\DoctrineRiakBundle\DataCollector;
 
 use Doctrine\Bundle\MongoDBBundle\Logger\LoggerInterface;
 use Symfony\Component\HttpFoundation\Request;

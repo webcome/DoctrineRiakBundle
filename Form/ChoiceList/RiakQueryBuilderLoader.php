@@ -12,7 +12,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CosmoW\Bundle\RiakBundle\Form\ChoiceList;
+namespace CosmoW\DoctrineRiakBundle\Form\ChoiceList;
 
 use Doctrine\Common\Persistence\ObjectManager;
 use Doctrine\ODM\MongoDB\Query\Builder;

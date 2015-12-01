@@ -12,7 +12,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CosmoW\Bundle\RiakBundle\Mapping\Driver;
+namespace CosmoW\DoctrineRiakBundle\Mapping\Driver;
 
 use Doctrine\Common\Persistence\Mapping\Driver\SymfonyFileLocator;
 use Doctrine\ODM\MongoDB\Mapping\Driver\XmlDriver as BaseXmlDriver;

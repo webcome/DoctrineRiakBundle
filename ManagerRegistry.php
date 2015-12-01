@@ -12,7 +12,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CosmoW\Bundle\RiakBundle;
+namespace CosmoW\DoctrineRiakBundle;
 
 use Doctrine\ODM\MongoDB\MongoDBException;
 use Symfony\Bridge\Doctrine\ManagerRegistry as BaseManagerRegistry;

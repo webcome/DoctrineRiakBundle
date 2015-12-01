@@ -12,7 +12,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CosmoW\Bundle\RiakBundle\Cursor;
+namespace CosmoW\DoctrineRiakBundle\Cursor;
 
 /**
  * Contract for tailable cursor processors.

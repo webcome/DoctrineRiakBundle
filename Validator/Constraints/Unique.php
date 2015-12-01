@@ -12,7 +12,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CosmoW\Bundle\RiakBundle\Validator\Constraints;
+namespace CosmoW\DoctrineRiakBundle\Validator\Constraints;
 
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 

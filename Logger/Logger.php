@@ -12,7 +12,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CosmoW\Bundle\RiakBundle\Logger;
+namespace CosmoW\DoctrineRiakBundle\Logger;
 
 use Symfony\Component\HttpKernel\Log\LoggerInterface as SymfonyLogger;
 

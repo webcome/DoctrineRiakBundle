@@ -12,7 +12,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CosmoW\Bundle\RiakBundle\Command;
+namespace CosmoW\DoctrineRiakBundle\Command;
 
 use Doctrine\Bundle\MongoDBBundle\Cursor\TailableCursorProcessorInterface;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
